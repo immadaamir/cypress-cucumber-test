@@ -1,0 +1,17 @@
+{
+  "author": "Muhammad Immad Aamir",
+  "description": "Test using cypress with cucumber",
+  "name": "cypress-cucumber",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^12.2.0",
+    "esbuild": "^0.16.12"
+  },
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "version": "1.0.0"
+}
